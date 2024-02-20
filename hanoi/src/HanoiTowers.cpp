@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 using namespace std;
 
 void HanoiTowers(int n, char from, char to, char aux){
@@ -16,6 +15,6 @@ void HanoiTowers(int n, char from, char to, char aux){
 int main(){
  int numDisks;
  cout << "Enter the number of disks: ";
-    cin >> numDisks;
+    cin >> numDisks;            
     HanoiTowers(numDisks, 'A', 'C', 'B');
 }
