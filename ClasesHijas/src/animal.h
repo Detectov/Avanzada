@@ -8,6 +8,8 @@ class Animal{
         Animal(string);
         ~Animal();
         void imprimeRaza();
+        void setRaza(string);
+        void setVertebrado(bool);
     private:
 
     protected:
